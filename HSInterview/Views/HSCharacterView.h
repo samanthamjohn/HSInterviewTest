@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HSCharacterView.h
 //  HSInterview
 //
 //  Created by Samantha John on 12/29/14.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface HSCharacterView : UIView
 
++ (instancetype)newWithName:(NSString *)name bio:(NSString *)bio;
 
 @end
-
